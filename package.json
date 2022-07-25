@@ -1,0 +1,25 @@
+{
+  "name": "cat",
+  "version": "1.0.0",
+  "description": "vue脚手架",
+  "main": "./bin/index.js",
+  "bin": {
+    "cat": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "duanxinxin",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.0",
+    "download": "^8.0.0",
+    "fs-extra": "^10.1.0",
+    "handlebars": "^4.7.7",
+    "inquirer": "^9.0.2",
+    "log-symbols": "^4.1.0",
+    "ora": "^6.1.2",
+    "update-notifier": "^5.1.0"
+  }
+}
