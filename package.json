@@ -23,6 +23,7 @@
   "dependencies": {
     "download-git-repo": "^3.0.2",
     "inquirer": "^8.2.4",
-    "ora": "^5.4.1"
+    "ora": "^5.4.1",
+    "sass": "^1.54.0"
   }
 }
