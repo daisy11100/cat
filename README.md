@@ -15,6 +15,10 @@ cat mirror 镜像链接
 ```
 cat template
 ```
+5、下载项目
+```
+cat init 项目名
+```
 #### 实现
 1、命令声明  
 ```
