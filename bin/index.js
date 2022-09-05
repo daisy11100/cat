@@ -22,7 +22,7 @@ program
 
 // 设置mirror链接
 program
-    .command('mirror <tempalte_mirror>')
+    .command('mirror <tempalte_mirror_url>')
     .description('set template mirror')
     .action((tplMirror)=>{
         setMirror(tplMirror)
@@ -40,7 +40,7 @@ program
 program
     .name('cat')
     .usage('<commands> [options]')
-    .command('init <project_name')
+    .command('init <project_name>')
     .action(project=>{
         initProject(project)
     })
